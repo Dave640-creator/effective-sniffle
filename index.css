@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:pink;
+    margin: 0;
+    padding: 0;
+    
+    background-image: linear-gradient( to right ,  red,cyan,PINK,BLUE);
+    background-size: 300% 300%;
+    animation: color 30s ease-in-out infinite;
+   
+}
+@keyframes color{
+    0%{
+background-position: 0 50% ;
+opacity:1;
+    }
+    50%{
+        background-position: 100% 50% ;
+        opacity: 1;
+    }
+    100%{
+
+background-position: 0 50% ;
+opacity:1;
+    }
+}
+
+
+
+
+
+.container {
+  
+    width: 300px;
+   margin: auto;
+   margin-top: 150px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 4px 8px ;
+    background:linear-gradient( to right ,lightyellow,lightgreen);
+    border-radius: 10px;
+    border: 3px solid lightcoral;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black ;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+   
+
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: yellowgreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage {
+    text-align: center;
+ 
+} 
+.lmc{
+    font-size: 100px;
+    margin-top: 100px;
+   color:linear-gradient(gold,white,orange);
+   background-color: black;
+   animation: fade 2s  infinite ;
+   margin-left: 20%;
+   margin-right:20% ;
+   border-radius: 10px;
+
+}
+@keyframes fade {
+    0%{
+       color:pink;
+      border: 5px solid pink;
+  
+            }
+            50%{
+                color:aqua;
+                border: 5px solid aqua;
+               
+            }
+            100%{
+               
+
+        color:pink;
+        border: 5px solid pink;
+       
+            }
+        }
+        .para{
+            text-align: center;
+        }
+       
