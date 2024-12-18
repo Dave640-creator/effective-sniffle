@@ -1,6 +1,6 @@
 
 
-let users = [];
+let users = [{ name: 'dave', password: 'iloveyou' }];
 
 function showLogin() {
     document.getElementById('signupForm').style.display = 'none';
@@ -21,6 +21,7 @@ document.getElementById('login').addEventListener('submit', function (e) {
     const name = document.getElementById('loginName').value;
     const password = document.getElementById('loginPassword').value;
     
+ 
     const user = users.find(user => user.name === name && user.password === password);
     
     if (user) {
